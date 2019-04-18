@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="ie=edge">
+    <title>first-project-lp</title>
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300,400" rel="stylesheet">
+    <!--Custom styles-->
+    <link rel="stylesheet" href="css/et-line.css">
+
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css">
+
+    <link rel="stylesheet" type="text/css" href="./js/slick-nav/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/slick-nav/jquery.slicknav.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $(function () {
+            $("#tabs, #tabs-p").tabs();
+            $(document).ready(function () {
+                $('.reviews-carousel').slick({
+                    dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    infinite: true,
+                    slidersToShow: 1,
+                    prevArrow: '<div class="slick-prev slick-arrow"> <div class="carousel-button"><i class="fa fa-chevron-left"></i></div></div>',
+                    nextArrow: '<div class="slick-next slick-arrow"><div class="carousel-button"><i class="fa fa-chevron-right"></i></div></div>',
+                });
+                $('.header-nav').slicknav({
+                    appendTo: '#header .container-fluid',
+                    label: ''
+                });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <div id="header">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href>
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- /.logo -->
+            <ul class="header-nav text-uppercase">
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+            <!-- /.header-nav -->
+        </div>
+    </div>
+    <!-- /.header -->
+
+    <!-- Main start -->
+    <div id="main">
+
+        <!-- Start block -->
+        <div class="start">
+            <div class="start-title">
+                <span class="start-title-main text-uppercase">Thomas rythm</span>
+                <span class="start-subtitle">Extraordinary art director & creative minimalism lover</span>
+            </div>
+            <div class="scroll-down">
+                <img src="img/scroll-down.png" alt="">
+            </div>
+        </div>
+        <!-- /.Start block -->
+
+        <!-- About studio start -->
+        <div class="about-studio default-section">
+            <div class="container">
+                <h3 class="title text-uppercase">About studio</h3>
+                <div class="row">
+                    <div class="col col-4 col-md-12 col-sm-12">
+                        <blockquote>
+                            <p>Design is not making beauty, beauty emerges from selection, affinities,integration, love.
+                            </p>
+                            <span class="text-uppercase">— Louis Kahn</span>
+                        </blockquote>
+                    </div>
+                    <div class="col col-4 col-md-6 col-sm-12">
+                        <blockquote>
+                            <p class="default-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id
+                                dolor consectetur fermentum nibh volutpat, accumsan purus.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="col col-4 col-md-6 col-sm-12">
+                        <blockquote>
+                            <p class="default-text">
+                                Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque
+                                porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis
+                                libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front text-center">
+                                    <img src="img/thomas.jpg" alt="thomas">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">Skills</div>
+                                    <p class="skills-text">Curabitur iaculis accumsan augue, nec finibus mauris pretium
+                                        eu. Duis placerat ex gravida nibh tristique porta.</p>
+                                    <div class="skill">
+                                        <span>Branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 78%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 69%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info text-uppercase">
+                                <span class="item-name">Thomas Rhythm</span>
+                                <span class="item-role">Art director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front text-center">
+                                    <img src="img/marta.jpg" alt="thomas">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">Skills</div>
+                                    <p class="skills-text">Curabitur iaculis accumsan augue, nec finibus mauris pretium
+                                        eu. Duis placerat ex gravida nibh tristique porta.</p>
+                                    <div class="skill">
+                                        <span>Branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 88%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 76%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 89%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info text-uppercase">
+                                <span class="item-name">Marta Laning</span>
+                                <span class="item-role">Web engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front text-center">
+                                    <img src="img/steve.jpg" alt="thomas">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">Skills</div>
+                                    <p class="skills-text">Curabitur iaculis accumsan augue, nec finibus mauris pretium
+                                        eu. Duis placerat ex gravida nibh tristique porta.</p>
+                                    <div class="skill">
+                                        <span>Branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 89%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 65%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info text-uppercase">
+                                <span class="item-name">Steve Anders</span>
+                                <span class="item-role">Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.About studio -->
+
+        <!-- Services start -->
+        <div class="services default-section">
+            <div class="container">
+                <h3 class="title text-uppercase">Services</h3>
+                <!-- Tabs -->
+                <div class="tabs" id="tabs">
+                    <ul>
+                        <li>
+                            <a href="#branding">
+                                <span class="services-tab-icon icon-strategy"></span>
+                                <span class="text-uppercase">Branding</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#web-design">
+                                <span class="services-tab-icon icon-desktop"></span>
+                                <span class="text-uppercase">Web design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#graphic-design">
+                                <span class="services-tab-icon  icon-tools"></span>
+                                <span class="text-uppercase">graphic design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#development">
+                                <span class="services-tab-icon icon-gears"></span>
+                                <span class="text-uppercase">Development</span>
+                            </a>
+                        </li>
+                        <li><a href="#photography">
+                                <span class="services-tab-icon icon-camera"></span>
+                                <span class="text-uppercase">Photography</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row" id="branding">
+                        <div class="col col-4 col-md-12 col-sm-12">
+                            <blockquote>
+                                <p>Branding A brand for a company is like
+                                    a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                                <span class="text-uppercase">— Jeff Bezos</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                    fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                    consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla
+                                    lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer
+                                    lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row" id="web-design">
+                        <div class="col col-4 col-md-12 col-sm-12">
+                            <blockquote>
+                                <p>Web-design A brand for a company is like
+                                    a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                                <span class="text-uppercase">— Jeff Bezos</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                    fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                    consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla
+                                    lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer
+                                    lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row" id="graphic-design">
+                        <div class="col col-4 col-md-12 col-sm-12">
+                            <blockquote>
+                                <p> Graphic-design A brand for a company is like
+                                    a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                                <span class="text-uppercase">— Jeff Bezos</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                    fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                    consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla
+                                    lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer
+                                    lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row" id="development">
+                        <div class="col col-4 col-md-12 col-sm-12">
+                            <blockquote>
+                                <p> DevelopmentA brand for a company is like
+                                    a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                                <span class="text-uppercase">— Jeff Bezos</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                    fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                    consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla
+                                    lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer
+                                    lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row" id="photography">
+                        <div class="col col-4 col-md-12 col-sm-12">
+                            <blockquote>
+                                <p> Photography A brand for a company is like
+                                    a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                                <span class="text-uppercase">— Jeff Bezos</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                    fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                    consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <blockquote>
+                                <p class="default-text">
+                                    Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla
+                                    lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer
+                                    lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Tabs -->
+            </div>
+        </div>
+        <!-- /.Services -->
+
+        <!-- Banner-frst -->
+        <div class="banner-frst bg-black">
+            <div class="container">
+                <div class="row banner-frst-row">
+                    <div class="col col-6 col-md-12 col-banner-text">
+                        <h3 class="title text-uppercase">Looking for exclusive digital services?</h3>
+                        <p class="banner-frst-text">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. 
+                            Integer non dapibus diam, ac eleifend lectus.</p>
+                            <div class="banner-frst-btn-row">
+                                <a href="" class="banner-first-btn text-uppercase">Lets talk</a>
+                            </div>
+                    </div>
+                    <div class="col col-6 col-md-12 col-banner-img">
+                        <img src="img/imac.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- /.Banner-frst -->
+
+        <!-- Portfolio start -->
+        <div class="portfolio">
+            <h3 class="title text-uppercase">Portfolio</h3>
+            <p>In auctor ex id urna faucibus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta
+                quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+            <div class="portfolio-container">
+                <!-- Tabs -->
+                <div class="tabs-p" id="tabs-p">
+                    <ul>
+                        <li>
+                            <a href="#portfolio-all-works">
+                                <span class="text-uppercase">All Works</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio-branding">
+                                <span class="text-uppercase">Branding</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio-design">
+                                <span class="text-uppercase">Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio-photography">
+                                <span class="text-uppercase">Photography</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="portfolio-all-works">
+                        <div class="row row-p">
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-1.jpg" alt="">
+                            </div>
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-2.jpg" alt="">
+                            </div>
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row row-p">
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-4.jpg" alt="">
+                            </div>
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-5.jpg" alt="">
+                            </div>
+                            <div class="col col-4 col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/portfolio-img-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="portfolio-branding">
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-2.jpg">
+                        </div>
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-5.jpg">
+                        </div>
+                    </div>
+                    <div class="row" id="portfolio-design">
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-4.jpg" alt="">
+                        </div>
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row" id="portfolio-photography">
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-1.jpg">
+                        </div>
+                        <div class="col col-6 col-md-12 col-sm-12 col-xs-12">
+                            <img src="img/portfolio-img-3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.Portfolio -->
+
+        <!-- Banner start -->
+        <div class="banner-scnd bg-black">
+            <div class="container text-center">
+                <h3 class="title text-uppercase ">Like our creative works?</h3>
+                <div class="banner-scnd-btn-row text-center">
+                    <a href="" class="banner-scnd-btn text-uppercase">Start project</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.Banner -->
+
+        <!-- Creative works start -->
+        <div class="creative-works"></div>
+        <!-- /.Creative works -->
+
+        <!-- Benefits start -->
+        <div class="benefits default-section">
+            <div class="container">
+                <h3 class="title text-uppercase">Why choose us?</h3>
+                <div class="row">
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class="icon-flag"></span></a>
+                        <span class="benefits-subtitle text-uppercase">We’re Creative</span>
+                        <span class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim.</span>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class="icon-clock"></span></a>
+                        <span class="benefits-subtitle text-uppercase">We’re Punctual</span>
+                        <span class="benefits-text">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae
+                            neque et porttitor. Praesent sed nisi eleifend, lorem fermentum orci sit amet, iaculis
+                            libero.</span>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class="icon-hotairballoon"></span> </a>
+                        <span class="benefits-subtitle text-uppercase">We have magic</span>
+                        <span class="benefits-text">Curabitur iaculis accumsan augue, nec finibus mauris pretium eu.
+                            Duis placerat ex gravida nibh tristique porta. Nulla facilisi. Suspendisse ultricies eros
+                            blandit.</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class="icon-heart"></span></a>
+                        <span class="benefits-subtitle text-uppercase">We love minimalism</span>
+                        <span class="benefits-text">Cras luctus interdum sodales. Quisque quis odio dui. Sedes sit amet
+                            neque malesuada, lobortis commodo magna ntesque pharetra metus vivera sagittis.</span>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class="icon-linegraph"></span> </a>
+                        <span class="benefits-subtitle text-uppercase">We’re responsible</span>
+                        <span class="benefits-text">Fusce aliquet quam eget neque ultrices elementum. Nulla posuere
+                            felis id arcu blandit sagittis. Eleifend vestibulum purus, sit amet vulputate risus
+                            tristique non.</span>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                        <a href="" class="benefits-icons"><span class=" icon-chat"></span></a>
+                        <span class="benefits-subtitle text-uppercase">We're Friendly</span>
+                        <span class="benefits-text">Pulvinar vitae neque et porttitor. Integer non dapibus diam, ac
+                            eleifend lectus. Praesent sed nisi eleifend, fermentum orci sit amet, iaculis libero
+                            interdum.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.Benefits -->
+
+        <!-- Reviews start -->
+        <div class="reviews bg-black ">
+            <div class="reviews-carousel default-section">
+                <div>
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title text-uppercase title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit.
+                            Aenean congue,
+                            risus utaliquam dapibus. Thanks!</p>
+                        <div class="review-author text-uppercase">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title text-uppercase title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit.
+                            Aenean congue,
+                            risus utaliquam dapibus. Thanks!</p>
+                        <div class="review-author text-uppercase">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title text-uppercase title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit.
+                            Aenean congue,
+                            risus utaliquam dapibus. Thanks!</p>
+                        <div class="review-author text-uppercase">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title text-uppercase title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit.
+                            Aenean congue,
+                            risus utaliquam dapibus. Thanks!</p>
+                        <div class="review-author text-uppercase">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.Reviews -->
+
+        <!-- News start -->
+        <div class="news default-section">
+            <div class="container">
+                <div class="title text-uppercase">
+                    <h3>Latest news</h3>
+                    <a href="" class="news-block">All news in our block<i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-sm-12">
+                        <div class="news-item">
+                            <div class="news-img"><a href=""><img src="img/news-1.jpg" alt=""></a></div>
+                            <span class="news-title">New Web Design Trends</span>
+                            <span class="news-author">John Doe | 10 December</span>
+                            <p class="default-text">
+                                Maecenas volutpat, diam enim sagittis quam,
+                                id porta quam. Sed id dolor consectetur fermentum
+                                nibh volutpat, accumsan purus.
+                            </p>
+                            <a href="" class="btn btn-small btn-gray">Read more<i class="fas fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                        <div class="news-item">
+                            <div class="news-img"><a href=""><img src="img/news-2.jpg" alt=""></a></div>
+                            <span class="news-title">Minimalistic Design Forever</span>
+                            <span class="news-author">John Doe | 9 December</span>
+                            <p class="default-text">Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id
+                                dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                            <a href="" class="btn btn-small btn-gray">Read more<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-sm-12">
+                            
+                        <div class="news-item">
+                            <div class="news-img"><a href=""><img src="img/news-3.jpg" alt=""></a></div>
+                            <span class="news-title">Hipster’s Style in Web</span>
+                            <span class="news-author">John Doe | 7 December</span>
+                            <p class="default-text">Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id
+                                dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                            <a href="" class="btn btn-small btn-gray">Read more<i class="fas fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.News -->
+
+        <!-- Subscribe start -->
+        <div class="subscribe bg-grey">
+            <div class="subscribe-wrapper">
+                <h3 class="title text-uppercase text-center">Stay informed with our newsletter</h3>
+                <form class="subscribe-form text-center">
+                    <input type="email" class="enter-email text-uppercase" placeholder="enter email here">
+                    <input type="submit" class="btn-subscribe text-uppercase" value="subscribe">
+                </form>
+                <div class="subscribe-inform text-center">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="info-text">Please trust us, we will never send you spam</span>
+                </div>
+            </div>
+        </div>
+        <!-- ./Subscribe -->
+
+        <!-- Contact start -->
+        <div class="contact default-section">
+            <h3 class="title text-uppercase">Contact</h3>
+            <div class="row">
+                <div class="col col-8 col-md-12 col-sm-12 m-auto">
+                    <div class="contact-items">
+                        <div class="row">
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <div class="contact-info">
+                                    <div class="block-icon"><i class="fas fa-phone"></i></div>
+                                    <div class="item-content">
+                                        <div class="cont-item">Call us</div>
+                                        <div class="cont-data">+61 3 8376 6284</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <div class="contact-info">
+                                    <div class="block-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                    <div class="item-content">
+                                        <div class="cont-item">Address</div>
+                                        <div class="cont-data">245 Quigley Blvd, Ste K</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <div class="contact-info">
+                                    <div class="block-icon"><i class="fas fa-envelope"></i></div>
+                                    <div class="item-content">
+                                        <div class="cont-item">Email</div>
+                                        <div class="cont-data">support@bestlooker.pro</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-forms">
+                <div class="row form-row">
+                    <div class="col col-6 form-col">
+                        <input type="text" name="user-name" required placeholder="name" class="form-control">
+                        <input type="email" name="contact-email" required placeholder="email" class="form-control">
+                        <div class="form-info">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="info-text">All the fields are required</span>
+                        </div>
+                    </div>
+                    <div class="col col-6 form-col">
+                        <input type="textarea" name="contact-msg" required placeholder="message" class="form-txtarea">
+                            <p>
+                                <input type="submit" name="contact-submit" value="submit message" class="submit-msg-btn">
+                            </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- /.Content -->
+        <!-- Map -->
+        <div class="map-container">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d549.825562092372!2d36.246155884856925!3d49.98230066014327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a125a932cb95%3A0xa77c35a9fbd58ed7!2sEasyCode!5e0!3m2!1sru!2sua!4v1554325452183!5m2!1sru!2sua" width="1600" height="410" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="layer">
+                    <div class="map-wrapper">
+                        <div class="map-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="map-open text-uppercase">Open the map <i class="fas fa-chevron-down"></i></div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.map -->
+        <!-- Footer start -->
+    </div>
+        <div id="footer">
+            <div class="container">
+                <div class="footer-wrapper text-center">
+                    <div class="footer-logo">
+                        <img src="img/footer-logo.png" alt="">
+                    </div>
+                    <div class="icon-row">
+                        <div class="icon-col">
+                            <a href="" class="footer-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="icon-col">
+                            <a href="" class="footer-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="icon-col">
+                            <a href="" class="footer-icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                        <div class="icon-col">
+                            <a href="" class="footer-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="icon-col">
+                            <a href="" class="footer-icon">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="rythm-2014 text-uppercase"> <span class="footer-sign">©</span> rythm 2014</p>
+                    <p class="footer-text">Made with love for great people</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.Footer -->
+</body>
+
+</html>
