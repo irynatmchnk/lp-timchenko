@@ -783,10 +783,11 @@ right:-32px;
 .banner-scnd{
     width:100%;
     height:220px;
- 
+    position: absolute;
     margin:0 auto;
 }
 .banner-scnd h3{
+    position: relative;
     color:#fff;
     font-family: 'Dosis',sans-serif;
     font-weight:lighter;
@@ -808,6 +809,7 @@ right:-32px;
     font-family:'Open Sans', sans-serif;
     font-size:14px;
     letter-spacing:2.8px;
+    
     
    
 }
